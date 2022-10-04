@@ -1,0 +1,43 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+*{
+    font-family: "poppins", serif;
+}
+
+:root{
+    --primaryYellow: #f6c726;
+    --primarySkyBlue: #3caac9;
+    --primaryPurple: #a15fac;
+    --primaryLightGreen: #77c0a0;
+}
+
+.btn-signup{
+    transition: all .2s;
+}
+
+.btn-signup:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.btn-signup:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.header-section{
+    height: 73vh;
+}
+
+.book-now-btn{
+    background-color: var(--primarySkyBlue);
+}
+
+.text-color{
+    color: var(--primarySkyBlue);
+    font-weight: 500;
+}
